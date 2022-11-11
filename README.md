@@ -9,5 +9,5 @@ go get github.com/petew9527/grace
 
 ## Examples:
 ```go
-
+grace.Wait(grace.WithOutTime(time.Second*3), grace.WithHandlers(func() error {return nil}))
 ```
